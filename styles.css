@@ -1,4 +1,7 @@
  .header {
+    padding: 10px;
+     display: flex;
+     justify-content: space-between;
      background-color: teal;
      color: white;
  }
@@ -7,10 +10,24 @@
      background-color: silver;
  }
 
- .container{
-    margin: 0px;
+ .container {
+     margin: 0px;
  }
 
- *{
-   margin: 0px; 
+ * {
+     margin: 0px;
+ }
+
+ .menu {
+     display: flex;
+ }
+
+ .menu li{
+    list-style:none;
+    margin: 5px;
+    
+ }
+ .menu li a{
+    text-decoration: none;
+    color:white;
  }
